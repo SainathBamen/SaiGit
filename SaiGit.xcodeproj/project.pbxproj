@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04B413642B6FFE62006ED94C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B413632B6FFE62006ED94C /* AppDelegate.swift */; };
+		04B413662B6FFE62006ED94C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B413652B6FFE62006ED94C /* SceneDelegate.swift */; };
+		04B413682B6FFE62006ED94C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B413672B6FFE62006ED94C /* ViewController.swift */; };
+		04B4136B2B6FFE62006ED94C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B413692B6FFE62006ED94C /* Main.storyboard */; };
+		04B4136E2B6FFE62006ED94C /* SaiGit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04B4136C2B6FFE62006ED94C /* SaiGit.xcdatamodeld */; };
+		04B413702B6FFE6A006ED94C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B4136F2B6FFE6A006ED94C /* Assets.xcassets */; };
+		04B413732B6FFE6A006ED94C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B413712B6FFE6A006ED94C /* LaunchScreen.storyboard */; };
+		04B4137E2B6FFE6B006ED94C /* SaiGitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4137D2B6FFE6B006ED94C /* SaiGitTests.swift */; };
+		04B413882B6FFE6B006ED94C /* SaiGitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B413872B6FFE6B006ED94C /* SaiGitUITests.swift */; };
+		04B4138A2B6FFE6B006ED94C /* SaiGitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B413892B6FFE6B006ED94C /* SaiGitUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04B4137A2B6FFE6B006ED94C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04B413582B6FFE62006ED94C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04B4135F2B6FFE62006ED94C;
+			remoteInfo = SaiGit;
+		};
+		04B413842B6FFE6B006ED94C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04B413582B6FFE62006ED94C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04B4135F2B6FFE62006ED94C;
+			remoteInfo = SaiGit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04B413602B6FFE62006ED94C /* SaiGit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaiGit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B413632B6FFE62006ED94C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04B413652B6FFE62006ED94C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		04B413672B6FFE62006ED94C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04B4136A2B6FFE62006ED94C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04B4136D2B6FFE62006ED94C /* SaiGit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SaiGit.xcdatamodel; sourceTree = "<group>"; };
+		04B4136F2B6FFE6A006ED94C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04B413722B6FFE6A006ED94C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04B413742B6FFE6A006ED94C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B413792B6FFE6B006ED94C /* SaiGitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaiGitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B4137D2B6FFE6B006ED94C /* SaiGitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaiGitTests.swift; sourceTree = "<group>"; };
+		04B413832B6FFE6B006ED94C /* SaiGitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaiGitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B413872B6FFE6B006ED94C /* SaiGitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaiGitUITests.swift; sourceTree = "<group>"; };
+		04B413892B6FFE6B006ED94C /* SaiGitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaiGitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04B4135D2B6FFE62006ED94C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B413762B6FFE6B006ED94C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B413802B6FFE6B006ED94C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04B413572B6FFE62006ED94C = {
+			isa = PBXGroup;
+			children = (
+				04B413622B6FFE62006ED94C /* SaiGit */,
+				04B4137C2B6FFE6B006ED94C /* SaiGitTests */,
+				04B413862B6FFE6B006ED94C /* SaiGitUITests */,
+				04B413612B6FFE62006ED94C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04B413612B6FFE62006ED94C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04B413602B6FFE62006ED94C /* SaiGit.app */,
+				04B413792B6FFE6B006ED94C /* SaiGitTests.xctest */,
+				04B413832B6FFE6B006ED94C /* SaiGitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04B413622B6FFE62006ED94C /* SaiGit */ = {
+			isa = PBXGroup;
+			children = (
+				04B413632B6FFE62006ED94C /* AppDelegate.swift */,
+				04B413652B6FFE62006ED94C /* SceneDelegate.swift */,
+				04B413672B6FFE62006ED94C /* ViewController.swift */,
+				04B413692B6FFE62006ED94C /* Main.storyboard */,
+				04B4136F2B6FFE6A006ED94C /* Assets.xcassets */,
+				04B413712B6FFE6A006ED94C /* LaunchScreen.storyboard */,
+				04B413742B6FFE6A006ED94C /* Info.plist */,
+				04B4136C2B6FFE62006ED94C /* SaiGit.xcdatamodeld */,
+			);
+			path = SaiGit;
+			sourceTree = "<group>";
+		};
+		04B4137C2B6FFE6B006ED94C /* SaiGitTests */ = {
+			isa = PBXGroup;
+			children = (
+				04B4137D2B6FFE6B006ED94C /* SaiGitTests.swift */,
+			);
+			path = SaiGitTests;
+			sourceTree = "<group>";
+		};
+		04B413862B6FFE6B006ED94C /* SaiGitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04B413872B6FFE6B006ED94C /* SaiGitUITests.swift */,
+				04B413892B6FFE6B006ED94C /* SaiGitUITestsLaunchTests.swift */,
+			);
+			path = SaiGitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04B4135F2B6FFE62006ED94C /* SaiGit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04B4138D2B6FFE6B006ED94C /* Build configuration list for PBXNativeTarget "SaiGit" */;
+			buildPhases = (
+				04B4135C2B6FFE62006ED94C /* Sources */,
+				04B4135D2B6FFE62006ED94C /* Frameworks */,
+				04B4135E2B6FFE62006ED94C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SaiGit;
+			productName = SaiGit;
+			productReference = 04B413602B6FFE62006ED94C /* SaiGit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04B413782B6FFE6B006ED94C /* SaiGitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04B413902B6FFE6B006ED94C /* Build configuration list for PBXNativeTarget "SaiGitTests" */;
+			buildPhases = (
+				04B413752B6FFE6B006ED94C /* Sources */,
+				04B413762B6FFE6B006ED94C /* Frameworks */,
+				04B413772B6FFE6B006ED94C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04B4137B2B6FFE6B006ED94C /* PBXTargetDependency */,
+			);
+			name = SaiGitTests;
+			productName = SaiGitTests;
+			productReference = 04B413792B6FFE6B006ED94C /* SaiGitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04B413822B6FFE6B006ED94C /* SaiGitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04B413932B6FFE6B006ED94C /* Build configuration list for PBXNativeTarget "SaiGitUITests" */;
+			buildPhases = (
+				04B4137F2B6FFE6B006ED94C /* Sources */,
+				04B413802B6FFE6B006ED94C /* Frameworks */,
+				04B413812B6FFE6B006ED94C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04B413852B6FFE6B006ED94C /* PBXTargetDependency */,
+			);
+			name = SaiGitUITests;
+			productName = SaiGitUITests;
+			productReference = 04B413832B6FFE6B006ED94C /* SaiGitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04B413582B6FFE62006ED94C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					04B4135F2B6FFE62006ED94C = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					04B413782B6FFE6B006ED94C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 04B4135F2B6FFE62006ED94C;
+					};
+					04B413822B6FFE6B006ED94C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 04B4135F2B6FFE62006ED94C;
+					};
+				};
+			};
+			buildConfigurationList = 04B4135B2B6FFE62006ED94C /* Build configuration list for PBXProject "SaiGit" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04B413572B6FFE62006ED94C;
+			productRefGroup = 04B413612B6FFE62006ED94C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04B4135F2B6FFE62006ED94C /* SaiGit */,
+				04B413782B6FFE6B006ED94C /* SaiGitTests */,
+				04B413822B6FFE6B006ED94C /* SaiGitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04B4135E2B6FFE62006ED94C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B413732B6FFE6A006ED94C /* LaunchScreen.storyboard in Resources */,
+				04B413702B6FFE6A006ED94C /* Assets.xcassets in Resources */,
+				04B4136B2B6FFE62006ED94C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B413772B6FFE6B006ED94C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B413812B6FFE6B006ED94C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04B4135C2B6FFE62006ED94C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B4136E2B6FFE62006ED94C /* SaiGit.xcdatamodeld in Sources */,
+				04B413682B6FFE62006ED94C /* ViewController.swift in Sources */,
+				04B413642B6FFE62006ED94C /* AppDelegate.swift in Sources */,
+				04B413662B6FFE62006ED94C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B413752B6FFE6B006ED94C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B4137E2B6FFE6B006ED94C /* SaiGitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B4137F2B6FFE6B006ED94C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B413882B6FFE6B006ED94C /* SaiGitUITests.swift in Sources */,
+				04B4138A2B6FFE6B006ED94C /* SaiGitUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04B4137B2B6FFE6B006ED94C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04B4135F2B6FFE62006ED94C /* SaiGit */;
+			targetProxy = 04B4137A2B6FFE6B006ED94C /* PBXContainerItemProxy */;
+		};
+		04B413852B6FFE6B006ED94C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04B4135F2B6FFE62006ED94C /* SaiGit */;
+			targetProxy = 04B413842B6FFE6B006ED94C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04B413692B6FFE62006ED94C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04B4136A2B6FFE62006ED94C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04B413712B6FFE6A006ED94C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04B413722B6FFE6A006ED94C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04B4138B2B6FFE6B006ED94C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04B4138C2B6FFE6B006ED94C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04B4138E2B6FFE6B006ED94C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SaiGit/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sai.SaiGit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04B4138F2B6FFE6B006ED94C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SaiGit/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sai.SaiGit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04B413912B6FFE6B006ED94C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sai.SaiGitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SaiGit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SaiGit";
+			};
+			name = Debug;
+		};
+		04B413922B6FFE6B006ED94C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sai.SaiGitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SaiGit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SaiGit";
+			};
+			name = Release;
+		};
+		04B413942B6FFE6B006ED94C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sai.SaiGitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SaiGit;
+			};
+			name = Debug;
+		};
+		04B413952B6FFE6B006ED94C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sai.SaiGitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SaiGit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04B4135B2B6FFE62006ED94C /* Build configuration list for PBXProject "SaiGit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B4138B2B6FFE6B006ED94C /* Debug */,
+				04B4138C2B6FFE6B006ED94C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04B4138D2B6FFE6B006ED94C /* Build configuration list for PBXNativeTarget "SaiGit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B4138E2B6FFE6B006ED94C /* Debug */,
+				04B4138F2B6FFE6B006ED94C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04B413902B6FFE6B006ED94C /* Build configuration list for PBXNativeTarget "SaiGitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B413912B6FFE6B006ED94C /* Debug */,
+				04B413922B6FFE6B006ED94C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04B413932B6FFE6B006ED94C /* Build configuration list for PBXNativeTarget "SaiGitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B413942B6FFE6B006ED94C /* Debug */,
+				04B413952B6FFE6B006ED94C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04B4136C2B6FFE62006ED94C /* SaiGit.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04B4136D2B6FFE62006ED94C /* SaiGit.xcdatamodel */,
+			);
+			currentVersion = 04B4136D2B6FFE62006ED94C /* SaiGit.xcdatamodel */;
+			path = SaiGit.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 04B413582B6FFE62006ED94C /* Project object */;
+}
